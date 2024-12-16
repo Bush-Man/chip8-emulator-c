@@ -1,5 +1,14 @@
 #include <stdio.h>
+#include "display.h"
+#include "display.c"
 
-int main(){
-    printf("Hello world");
+
+int main(int argc,char **argv ){
+    (void)argc;
+    (void)argv;
+    display_t display;
+    
+    if(!init_display(&display))exit(EXIT_FAILURE);
+    
+    return 0;
 }
