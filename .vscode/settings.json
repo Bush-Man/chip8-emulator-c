@@ -54,6 +54,7 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "header.h": "c"
+    "header.h": "c",
+    "display.h": "c"
   }
 }
